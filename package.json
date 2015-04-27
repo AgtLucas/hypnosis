@@ -1,0 +1,19 @@
+{
+  "name": "hypnosis",
+  "version": "1.0.0",
+  "description": "React + hapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AgtLucas/hypnosis.git"
+  },
+  "author": "Lucas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AgtLucas/hypnosis/issues"
+  },
+  "homepage": "https://github.com/AgtLucas/hypnosis"
+}
