@@ -3,7 +3,7 @@ var context = {
   name: 'React + hapi'
 };
 
-server.route({
+module.exports = {
   method: 'GET',
   path: '/',
   handler: {
@@ -12,4 +12,4 @@ server.route({
       context: context
     }
   }
-});
+};
