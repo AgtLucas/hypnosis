@@ -5,7 +5,7 @@ var User = React.createClass({
   render: function () {
     return (
       <DefaultLayout>
-        <h1>Hello, {this.props.user}</h1>
+        <h1>Hello, {this.props.name}</h1>
       </DefaultLayout>
     );
   }
