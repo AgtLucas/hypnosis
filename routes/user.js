@@ -6,7 +6,7 @@ server.route({
       template: 'user',
       context: {
         title: 'User',
-        name: encodeURIComponent(request.params.user)
+        user: encodeURIComponent(request.params.user)
       }
     }
   }
