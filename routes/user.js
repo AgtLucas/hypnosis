@@ -1,4 +1,4 @@
-server.route({
+module.exports = {
   method: 'GET',
   path: '/user/{user}',
   handler: {
@@ -10,4 +10,4 @@ server.route({
       }
     }
   }
-});
+};
